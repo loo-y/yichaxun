@@ -15,8 +15,7 @@
     <script src="/js/kuaidi.js"></script>
 </head>
 <body>
-    <p>Content goes here</p>
-    
+    <h1>快递易查询</h1>
     <input type="text" value="" id="snum" name="snum"/>
     <select id="names">
         <option value="ems">EMS快递</option>
@@ -82,8 +81,15 @@
         <option value="ywfex">源伟丰</option>
         <option value="zhongyou">中邮物流</option>
     </select>
-    <input type="button" value="Click Me" id="clcbtn" name="clcbtn"/>
+    <input type="button" value="查询" id="clcbtn" name="clcbtn" class="button"/>
     <br />
-    <div id="result"></div>
+    <div id="result">
+        <div id="expTextName"></div>
+        <div id="message"></div>
+        <div id="mailNo"></div>
+        <div id="status"></div>
+        <div id="process"></div>
+
+    </div>
 </body>
 </html>

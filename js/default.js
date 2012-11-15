@@ -19,12 +19,18 @@
             }
             args.setPromise(WinJS.UI.processAll());
 
-            var clickBtn = document.getElementById("clcbtn");
-            clickBtn.addEventListener("click", clickF, false);
-
+            // assign page elements
             selects = document.getElementById("names");
             resDiv = document.getElementById("result");
             sNum = document.getElementById("snum");
+            expTextName = document.getElementById("expTextName");
+            message = document.getElementById("message");
+            mailNo = document.getElementById("mailNo");
+            status = document.getElementById("status");
+            process = document.getElementById("process");
+
+            var clickBtn = document.getElementById("clcbtn");
+            clickBtn.addEventListener("click", clickF, false);
         }
     };
 

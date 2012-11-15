@@ -14,3 +14,7 @@
 @media screen and (-ms-view-state: fullscreen-portrait) {
 }
 
+.button {
+    bottom: 2px;
+    position:relative;
+}
